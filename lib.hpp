@@ -4,6 +4,6 @@
 #include "Observer/Subject.hpp"
 
 #include "WeatherStation/WeatherStation.hpp"
-#include "TempratureDisplay/TempratureDisplay.hpp"
-#include "HumidityDisplay/HumidityDisplay.hpp"
-#include "LocationDisplay/LocationDisplay.hpp"
+#include "WeatherStation/TempratureDisplay/TempratureDisplay.hpp"
+#include "WeatherStation/HumidityDisplay/HumidityDisplay.hpp"
+#include "WeatherStation/LocationDisplay/LocationDisplay.hpp"

@@ -1,8 +1,8 @@
 #pragma once
 
 #include <iostream>
-#include "../Observer/Observer.hpp"
-#include "../WeatherStation/WeatherStation.hpp"
+#include "../../Observer/Observer.hpp"
+#include "../WeatherStation.hpp"
 
 class TemperatureDisplay : public Observer<WeatherStation *>
 {
